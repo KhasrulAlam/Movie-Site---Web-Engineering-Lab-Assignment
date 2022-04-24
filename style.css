@@ -1,0 +1,123 @@
+.header ul {
+  list-style-type: none;
+  padding-left: 100px;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.75em;
+}
+
+.header {
+  background-color: brown;
+  position: fixed;
+  padding: 1.5em;
+  top: 0;
+  width: 100%;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 50px;
+}
+
+.body > div {
+  padding: 2em;
+  border: black 1px solid;
+}
+
+.footer {
+  background-color: brown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.body img {
+  height: 400px;
+}
+
+.m1 {
+  grid-column: 2 / 3;
+}
+
+.up_body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  padding: 1em;
+  background-color: red;
+}
+
+.up_body img {
+  height: 500px;
+  border: 5px solid black;
+}
+
+.up_body div {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top table {
+  margin: auto;
+  background-color: rgb(241, 219, 219);
+}
+.top table td,
+th {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.top table th {
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: white;
+  border: none;
+}
+
+.top table tr:nth-child(even) {
+  background-color: rgb(231, 200, 200);
+}
+
+.top table img {
+  display: inline-block;
+  width: 50px;
+}
+
+.Review {
+  margin: auto;
+  margin-top: 100px;
+  width: 275px;
+  border: 3px solid black;
+  padding: 0px 50px;
+  padding-bottom: 20px;
+  background-color: rgb(185, 44, 44);
+  color: white;
+}
+
+#submit {
+  display: block;
+  background-color: rgb(158, 9, 9);
+  color: white;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+/* #ff7800 */
